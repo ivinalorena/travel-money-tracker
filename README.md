@@ -23,9 +23,14 @@ It consumes real-time data from the **AwesomeAPI** to provide accurate quotation
 
 ---
 
-## 📸 Screenshots
+## 📸 DEMO
 
-*(Add a screenshot of your dashboard here to show how it looks)*
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/9b105788-f5af-40da-a11e-2e17f4d71c0f" />
+
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/8a02159e-3c55-4b1a-9f85-a1f2ec2923d6" />
+
+https://github.com/user-attachments/assets/870181d9-2d85-411a-b446-2baac571215d
+
 ---
 
 ## 🚀 How to Run Locally
