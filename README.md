@@ -75,10 +75,16 @@ API: AwesomeAPI (Free Open Source Finance API)
 
 📂 Project Structure
 travel-money-tracker/
+
 ├── app.py              # Main dashboard application (Frontend)
+
 ├── api_economia.py     # API connection and Data Cleaning logic (Backend)
+
 ├── requirements.txt    # Project dependencies
+
 └── README.md           # Documentation
+
+
 🤝 Contributing
 Feel free to fork this project and submit Pull Requests. Any improvement is welcome!
 
