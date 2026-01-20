@@ -1,0 +1,20 @@
+# --- Python (Bytecode e Cache) ---
+__pycache__/
+*.pyc
+
+# --- Ambientes Virtuais ---
+venv/
+.venv/
+env/
+.env
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
