@@ -139,6 +139,13 @@ if dados:
         )
         fig.update_layout(xaxis_title=None, yaxis_title="Reais (R$)")
         st.plotly_chart(fig, width="stretch")
+        
+        # Alerta de 'hora de comprar': calcula se o preço atual está abaixo da média do mês
+        with st.container(border=True):
+            if dados['atual'] < df['bid'].mean():
+                st.success("A cotação está abaixo da média dos últimos 30 dias. Bom momento para comprar.")
+            else:
+                st.warning("A cotação não está abaixo da média dos últimos 30 dias")
 
 else:
     st.error("⚠️ Erro de conexão com a API. Verifique sua internet.")
